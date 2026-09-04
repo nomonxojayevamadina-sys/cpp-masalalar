@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
   int n;
-  int p = 1;
+  long long p = 1;
   cout<<"faktorial hisoblanadi!!!"<<endl;
   cout<<"haqiqiy son kiriting: "<<endl;
   
