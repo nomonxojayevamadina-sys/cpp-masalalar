@@ -1,0 +1,16 @@
+// a dan b gacha bo'lgan barcha sonlar yig'indisi aniqlanadi
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int a, b, s = 0;
+  cout<<"sonlar yig'indisi aniqlanadi!!"<<endl;
+  cout<<"a="<<endl; cin>>a;
+  cout<<"b="<<endl; cin>>b;
+  for ( int i = 1 ; i<=b ; i++) {
+    s += i;
+  }
+  cout<<"barcha sonlar yig'indisi: "<<s;
+  return 0;
+}
