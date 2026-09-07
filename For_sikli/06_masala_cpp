@@ -1,0 +1,18 @@
+// 0.1 , 0.2 , ..... kilogramm konfet narxini aniqlash dasturi 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int a, b, p = 1;
+  cout<<"konfetning kilogramm narxi chiqariladi!"<<endl;
+  cout<<"1 kilogramm konfet narxi kiriitlsin : "<<endl; cin>>a;
+  cout<<"sizga kerakli miqdor : "<<endl; cin>>b;
+  for ( int i = 1  ; i<=b ; i++) {
+     p = a * i ; 
+     cout<<i<<"  kilogramm konfet narxi "<<p<<endl;
+  }
+  
+  
+  return 0;
+}
