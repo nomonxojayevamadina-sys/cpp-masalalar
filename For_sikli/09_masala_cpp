@@ -1,0 +1,20 @@
+// har bir son faktoriali va faktoriallar yigindisini anqlovchi dastur
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int n;
+  long long p = 1;
+  cout<<"har bir son faktoriali aniqlanadi!!"<<endl;
+  int s = 0;
+  cout<<"n="<<endl; cin>>n;
+  for ( int i = 1 ; i<=n ; i++) {
+    p *= i;
+    s += p;
+    cout<<i<<"  faktorial : "<<p<<endl;
+  }
+  cout<<"faktoriallar yig'indisi : "<<s;
+  
+  return 0;
+}
