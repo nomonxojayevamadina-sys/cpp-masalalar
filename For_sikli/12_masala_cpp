@@ -1,0 +1,17 @@
+// a dan b gacha bo'lgan barcha sonlar ko'paytmasi chiqariladi
+#include <iostream>
+
+#include <math.h>
+
+using namespace std;
+
+int main() {
+  int a, n, p= 1 ; 
+  cout<<"a= "<<endl; cin>>a;
+  cout<<"n= "<<endl; cin>>n;
+  for ( int i = 1 ; i<=n ; i++) {
+    p *= i;
+  }
+  cout<<"barcha sonlar ko'paytmasi : "<<p;
+  return 0 ;
+}
