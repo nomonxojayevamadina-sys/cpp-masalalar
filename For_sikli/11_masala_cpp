@@ -1,0 +1,16 @@
+// darajalar yig'indisini aniqlash dasturi
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+  int a, n, s= 0;
+  cout<<"darajalar yig'indisi aniqlanadi!"<<endl;
+  cout<<"son kiriting: "<<endl; cin>>a;
+  cout<<"daraja kiritilsin: "<<endl; cin>>n;
+  for ( int i = 1 ; i<=n ; i++) {
+    s += pow(a , i) ;
+  }
+  cout<<"darajalar yig'indisi : "<<s;
+  return 0;
+}
