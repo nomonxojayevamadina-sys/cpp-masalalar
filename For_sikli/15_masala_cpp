@@ -1,0 +1,21 @@
+1 + x + x^2 + / (2!) + X^3 / (3!) + ......+ x^n/(n!) hisoblanadi
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+  float  x;
+    float p = 1;
+  float a = 1  ; int n;
+  cout<<"misol hisoblanadi!!!"<<endl;
+  cout<<"x= "<<endl; cin>>x;
+  cout<<"n= "<<endl; cin>>n;
+  for ( int i = 1 ; i<=n ; i++) {
+    a= a * x / i ; 
+    p = p + a; 
+  }
+  cout<<"javob : "<<p;
+  return 0;
+}
