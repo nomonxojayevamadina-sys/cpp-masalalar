@@ -1,0 +1,18 @@
+// kvadratlar yig'insidini aniqlash uchun dastur
+#include <iostream>
+
+#include <math.h>
+
+using namespace std;
+
+int main() {
+  int a, b, s = 0 ;
+  cout<<"kiritilgan sonlar kvadratlari yig'indisi chiqariladi!!!"<<endl;
+  cout<<"a= "<<endl; cin>>a;
+  cout<<"b= "<<endl; cin>>b;
+  for ( int i = a ; i <= b ; i ++) {
+    s += i * i;
+  }
+  cout<<"kvadratlar yig'indisi"<<s;
+  return 0;
+}
