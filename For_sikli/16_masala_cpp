@@ -1,0 +1,17 @@
+// s= n^2 + (n+1)^2+(n+2)^2+.....(2*n)^2 hisoblanadi
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    float n, s = 0;
+    cout<<"misol hisoblanadi!!!"<<endl;
+    cout<<"n = "<<endl; cin>>n;
+    for ( int i = 1 ; i<=n; i++) {
+        s= s+pow(i,2)+((i+1)*(i+1))+((2*i)*(2*i));
+    }
+    cout<<"javob: "<<s;
+    return 0 ; 
+}
