@@ -1,0 +1,24 @@
+//kesmada [a, b] ajratilgan barcha nuqtalarni chiqarish programmasi
+#include <iostream>
+
+#include <math.h>
+
+using namespace std;
+
+int main() {
+    int  n;
+    float a, b; float qadam , p = 1 ; 
+    cout<<"kesmada ajratilgan nuqtalar aniqlanadi"<<endl;
+    cout<<"a nuqtani kiriting : "; cin>>a;
+    cout<<"b nuqtani kiriting : "; cin>>b;
+    cout<<"bo'linadigan sonni kiriting : "<<endl; cin>>n;
+    qadam = (b-a)/n ; 
+    cout<<"kesmada ajratilgan barcha nuqtalar : ";
+    for ( int i = 0 ; i<=n ; i++) {
+         
+        p = a + i * qadam ; 
+        cout<<p<<" ";
+    }
+    
+    return 0 ; 
+}
