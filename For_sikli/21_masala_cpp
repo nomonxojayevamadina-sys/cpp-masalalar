@@ -1,0 +1,23 @@
+// fibonachchi ketma ketligining dastlabki n ta hadini chiqaruvchi dastur tuzilsin
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n ; 
+    float a= 1 ; 
+    float b = 1 ; 
+    float qadam; 
+    cout<<"fibonachchi ketma ketligining n ta hadi chiqariladi"<<endl;
+    cout<<"n = "<<endl; cin>>n;
+    cout<<a<<"  "<<b<<" ";
+    for ( int k = 3 ; k<=n ; k++) {
+        qadam = a + b ;
+        a = b ; 
+        b = qadam ;  
+        cout<<qadam<<"  ";
+    }
+    return 0;
+}
