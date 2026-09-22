@@ -1,0 +1,19 @@
+// a = 2 ning kiritilgan hadini (n=) topadigan programma tuzilsin
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n ; 
+    float a= 2; 
+    cout<<"a soning kiritilgan hadi hisoblanadi!!!"<<endl;
+    cout<<"a = 2 "<<endl; 
+    cout<<"n = "<<endl; cin>>n;
+    for ( int k = 1 ; k<=n ; k++) {
+        a = 2+1.0/a ; 
+        cout<<"A_"<<k<<" = "<<a; 
+    }
+    return 0;
+}
