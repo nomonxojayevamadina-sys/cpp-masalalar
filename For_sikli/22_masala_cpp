@@ -1,0 +1,19 @@
+// kiritilgan ketma ketlik hadlarini aniqlash
+#include <iostream>
+
+#include <math.h>
+
+using namespace std;
+
+int main() {
+    int n ; float a; 
+    cout<<"kiritilgan ketma ketlik hadlari aniqlanadi!!!"<<endl;
+    cout<<"A = 0 "<<endl;
+    cout<<"n= "<<endl; cin>>n;
+    for ( int i = 1 ; i<=n ; i++) {
+        a=(a+i)/i;
+        cout<<a<<"  ";
+    }
+    return 0 ; 
+}
+
