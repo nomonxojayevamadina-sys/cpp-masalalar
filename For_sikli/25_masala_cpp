@@ -1,0 +1,21 @@
+1^n + 1^n ..... ichma ich sikl orqali darajani hisoblash
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n , s = 0 ; 
+    cout<<"kiritilgan songacha bo'lgan sonlar darajaga oshiriladi!"<<endl;
+    cout<<"n= "; cin>>n;
+    int daraja = 1 ; 
+    for ( int i = 1 ; i<=n ; i++) {
+        for ( int j = 1 ; j<=i ; j++) {
+            daraja *= i ; 
+        }    
+        s += daraja ; 
+    }
+    cout<<"javob : "<<s; 
+    return 0 ;
+}
