@@ -1,0 +1,23 @@
+i^k ichma ich sikl orqali istalgan kvadratni hisoblash kodi
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n , k , s = 0 ; 
+    cout<<"kiritilgan sonlarning kiritilgan kvadratlari hisoblanadi!!!"<<endl;
+    cout<<"son kiriting : "; cin>>n;
+    cout<<"kvadrat kiritilsin : "; cin>>k;
+    for ( int i = 1 ; i<=n ; i++) {
+        int daraja = 1  ; 
+        for ( int j = 1 ; j<=k ; j++)  {
+        daraja *= i ; 
+        } 
+        s += daraja ; 
+    }
+        
+    cout<<s<<"  "; 
+    return 0;
+}
