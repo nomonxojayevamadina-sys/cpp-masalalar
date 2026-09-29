@@ -1,0 +1,21 @@
+ketma-ketlik yig'indisini ichma ich sikl orqali hisblash
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n , s = 0 ;  
+    cout<<"misol hisoblanadi!!!"<<endl;
+    cout<<"n= "; cin>>n;
+    for ( int i = 1 ; i<=n ; i++) {
+        int daraja = 1 ;
+        for ( int j = 1 ; j<=n-i+1 ; j++) {
+            daraja = daraja * i ; 
+        }
+        s = s+ daraja ; 
+    }
+    cout<<"javob : "<<s;
+    return 0;
+}
