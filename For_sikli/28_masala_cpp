@@ -1,16 +1,18 @@
-kiritilgan sonlar o'zinig qiymaticha chiqariladi 
+kiritilgan son o'zining qiymaticha chiqariladi 
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    int n ;
-    cout<<"kiritilgan son o'zining quymaticha chiqariladi!!!"<<endl;
-    cout<<"son kiriting : "; cin>>n; 
-    for ( int i = 1 ; i<=n ; i++) {
-        for ( int j = 1 ; j<=n ; j++) {
-            cout<<j<<"   ";
+    int a, b; 
+    cout<<"kiritilgan son o'zining qiymaticha chiqariladi!!!"<<endl;
+    cout<<"a= "; cin>>a;
+    cout<<"b= "; cin>>b;
+    for ( int i = a ; i<=b ; i++) {
+        for ( int j = 1 ; j<=i; j++) {
+            cout<<i<<"   ";
         }
+    
     }
     return 0;
 }
