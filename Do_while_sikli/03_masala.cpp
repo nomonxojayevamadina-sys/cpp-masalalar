@@ -8,7 +8,7 @@ int main() {
     float  k = 1.0 ; 
     cout<<"n= "<<endl; cin>>n ; 
     do { 
-        s = 1.0/(k*k) ; 
+        s = s+1.0/(k*k) ; 
         k++ ; 
     } while ( k <= n ) ; 
     cout<<"natija : "<<s ; 
